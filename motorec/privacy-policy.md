@@ -81,6 +81,13 @@ of the request. Their own privacy policies apply.
   track's coordinates are handed to the external map application you choose
   (for example Google Maps). From that point the external app and its privacy
   policy govern that data.
+- **Crash reporting (Firebase Crashlytics / Google).** If the app crashes, a
+  crash report is automatically sent to Firebase Crashlytics, a service operated
+  by Google. The report contains: the stack trace (the location in the app code
+  where the crash occurred), your device model and manufacturer, Android OS
+  version, app version, and the time of the crash. It does **not** contain your
+  recordings, transcripts, GPS tracks, or any other content you create in the
+  app. Google's privacy policy applies: https://policies.google.com/privacy
 
 ## 7. Sharing and export
 
@@ -90,7 +97,9 @@ etc.). MotoRec does not send your data anywhere on its own.
 
 ## 8. What we do NOT do
 
-- We do **not** use analytics or tracking SDKs.
+- We do **not** use advertising, analytics, or user-tracking SDKs. The only
+  third-party SDK we use is Firebase Crashlytics for crash reporting (see
+  section 6).
 - We do **not** require an account or sign-in.
 - We do **not** sync to any cloud or to us.
 - We do **not** sell or share your data — we never have it.

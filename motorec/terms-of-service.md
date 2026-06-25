@@ -63,6 +63,10 @@ privacy policy:
 - Map tiles from **CARTO**, based on **OpenStreetMap** data.
 - Optional handoff to an **external map application** (e.g. Google Maps) when
   you choose to open a track externally.
+- **Advertising by Google AdMob.** The free version displays banner ads. Ad
+  content is determined by Google; we do not control which specific ads are
+  shown. You can remove ads permanently with the "Remove ads" in-app purchase.
+  See Google's terms: https://policies.google.com/terms
 
 We are not responsible for these third-party services, their availability, or
 their content.

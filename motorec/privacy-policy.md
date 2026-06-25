@@ -7,11 +7,11 @@
 ## Short version
 
 MotoRec is built to keep your data on your device. We — the developer — do
-not operate any servers, do not collect your personal data, and never receive
-your recordings, locations, transcripts, or any other content you create in the
-app. Speech-to-text runs entirely on your phone. The app connects to the
-internet only for a few clearly described features, and even then it does not
-send us anything.
+not operate any servers and never receive your recordings, locations, transcripts,
+or any other content you create in the app. Speech-to-text runs entirely on your
+phone. The app contains advertising served by Google AdMob, which collects
+certain data as described in section 6. You can remove ads with an in-app
+purchase.
 
 ## 1. Who is responsible
 
@@ -88,6 +88,16 @@ of the request. Their own privacy policies apply.
   version, app version, and the time of the crash. It does **not** contain your
   recordings, transcripts, GPS tracks, or any other content you create in the
   app. Google's privacy policy applies: https://policies.google.com/privacy
+- **Advertising (Google AdMob).** The free version of the app displays banner
+  ads served by Google AdMob. To serve relevant ads, Google may collect and use
+  your advertising identifier (Android Advertising ID), IP address, device
+  information, and general location (derived from IP). This data is processed by
+  Google in accordance with their privacy policy. On first launch in the European
+  Economic Area and UK, the app shows a consent dialog — ads are personalised
+  only if you consent; otherwise non-personalised ads are shown. You can remove
+  all ads permanently with the "Remove ads" in-app purchase.
+  Google's privacy policy: https://policies.google.com/privacy
+  Google's ads policy: https://policies.google.com/technologies/ads
 
 ## 7. Sharing and export
 
@@ -97,9 +107,9 @@ etc.). MotoRec does not send your data anywhere on its own.
 
 ## 8. What we do NOT do
 
-- We do **not** use advertising, analytics, or user-tracking SDKs. The only
-  third-party SDK we use is Firebase Crashlytics for crash reporting (see
-  section 6).
+- We do **not** use analytics or user-tracking SDKs beyond what is described
+  in section 6. The app uses Google AdMob for advertising and Firebase
+  Crashlytics for crash reporting — both described in section 6.
 - We do **not** require an account or sign-in.
 - We do **not** sync to any cloud or to us.
 - We do **not** sell or share your data — we never have it.
@@ -110,8 +120,8 @@ etc.). MotoRec does not send your data anywhere on its own.
 - **Location (FINE/COARSE)** — to record an optional GPS track.
 - **Bluetooth (BLUETOOTH / BLUETOOTH_CONNECT)** — to use a connected Bluetooth
   microphone/headset for recording and playback routing.
-- **Internet / Network state** — to download the speech model and load map
-  tiles, as described above.
+- **Internet / Network state** — to download the speech model, load map tiles,
+  and display advertising, as described above.
 - **Notifications** — to show the ongoing recording/playback notification.
 - **Foreground service** — so recording, playback, and transcription continue
   reliably while the app is in the background.

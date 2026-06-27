@@ -6,7 +6,7 @@
 
 ## Short version
 
-MotoRec is built to keep your data on your device. We — the developer — do
+MotoRec is built to keep your data on your device. We – the developer – do
 not operate any servers and never receive your recordings, locations, transcripts,
 or any other content you create in the app. Speech-to-text runs entirely on your
 phone. The app contains advertising served by Google AdMob, which collects
@@ -24,7 +24,7 @@ Everything you create or capture in MotoRec is stored **only in the app's
 storage on your device**:
 
 - **Audio recordings** (`.m4a` files) captured from the microphone.
-- **GPS tracks** (`.gpx` files) — only if you choose to record a track.
+- **GPS tracks** (`.gpx` files) – only if you choose to record a track.
 - **Transcripts** (`.txt` / `.jsonl` files) generated from your recordings.
 - **Tags, titles, and metadata** you add to recordings.
 - **App settings** (preferences).
@@ -69,7 +69,7 @@ of the request. Their own privacy policies apply.
 
 - **Speech model download (Hugging Face).** The first time you use
   transcription, the app downloads a model file from Hugging Face
-  (`huggingface.co`). No content or personal data is sent — it is a download of
+  (`huggingface.co`). No content or personal data is sent – it is a download of
   a public file. See Hugging Face's privacy policy:
   https://huggingface.co/privacy
 - **Map tiles (CARTO / OpenStreetMap).** When you view a recorded track on the
@@ -93,7 +93,7 @@ of the request. Their own privacy policies apply.
   your advertising identifier (Android Advertising ID), IP address, device
   information, and general location (derived from IP). This data is processed by
   Google in accordance with their privacy policy. On first launch in the European
-  Economic Area and UK, the app shows a consent dialog — ads are personalised
+  Economic Area and UK, the app shows a consent dialog – ads are personalised
   only if you consent; otherwise non-personalised ads are shown. You can remove
   all ads permanently with the "Remove ads" in-app purchase.
   Google's privacy policy: https://policies.google.com/privacy
@@ -109,21 +109,21 @@ etc.). MotoRec does not send your data anywhere on its own.
 
 - We do **not** use analytics or user-tracking SDKs beyond what is described
   in section 6. The app uses Google AdMob for advertising and Firebase
-  Crashlytics for crash reporting — both described in section 6.
+  Crashlytics for crash reporting – both described in section 6.
 - We do **not** require an account or sign-in.
 - We do **not** sync to any cloud or to us.
-- We do **not** sell or share your data — we never have it.
+- We do **not** sell or share your data – we never have it.
 
 ## 9. Permissions and why they are used
 
-- **Microphone (RECORD_AUDIO)** — to record audio.
-- **Location (FINE/COARSE)** — to record an optional GPS track.
-- **Bluetooth (BLUETOOTH / BLUETOOTH_CONNECT)** — to use a connected Bluetooth
+- **Microphone (RECORD_AUDIO)** – to record audio.
+- **Location (FINE/COARSE)** – to record an optional GPS track.
+- **Bluetooth (BLUETOOTH / BLUETOOTH_CONNECT)** – to use a connected Bluetooth
   microphone/headset for recording and playback routing.
-- **Internet / Network state** — to download the speech model, load map tiles,
+- **Internet / Network state** – to download the speech model, load map tiles,
   and display advertising, as described above.
-- **Notifications** — to show the ongoing recording/playback notification.
-- **Foreground service** — so recording, playback, and transcription continue
+- **Notifications** – to show the ongoing recording/playback notification.
+- **Foreground service** – so recording, playback, and transcription continue
   reliably while the app is in the background.
 
 ## 10. Data retention and deletion

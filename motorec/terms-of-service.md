@@ -17,7 +17,7 @@ control, for your own lawful purposes.
 
 ## 2. Your content
 
-You own everything you create with the App — your recordings, tracks,
+You own everything you create with the App – your recordings, tracks,
 transcripts, tags, and notes ("Your Content"). All of it stays on your device.
 We do not access, claim any rights to, or take responsibility for Your Content.
 You are solely responsible for Your Content and for keeping your own backups.
@@ -42,13 +42,13 @@ are solely responsible for operating your vehicle safely and lawfully. We accept
 no liability for any accident, injury, loss, or fine arising from use of the App
 while operating a vehicle.
 
-## 5. Accuracy — provided "as is"
+## 5. Accuracy – provided "as is"
 
 The App is provided **"as is"** and **"as available"**, without warranties of
 any kind. In particular, we do not guarantee:
 
 - that recording will always succeed or that recordings will be free of defects;
-- the accuracy of **automatic transcription** — on-device speech-to-text can
+- the accuracy of **automatic transcription** – on-device speech-to-text can
   and will make mistakes; do not rely on it for anything important without
   verifying it yourself;
 - the accuracy, completeness, or availability of **GPS location and tracks**,

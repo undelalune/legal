@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Effective date** | 1 July 2026 |
+| **Effective date** | 2 July 2026 |
 | **App** | MotoRec (Android) |
 | **Developer / contact** | undelalune · [motorec-dev@outlook.com](mailto:motorec-dev@outlook.com) |
 
@@ -24,13 +24,15 @@ Everything you create or capture in MotoRec is stored **only in the app's storag
 
 | Data | Format | Stored |
 |---|---|---|
-| Audio recordings | `.m4a` | Device only |
+| Audio recordings | `.m4a` / `.opus` | Device only |
 | GPS tracks | `.gpx` | Device only – optional |
 | Transcripts | `.txt` / `.jsonl` | Device only |
 | Tags, titles, metadata | – | Device only |
 | App settings | – | Device only |
 
 We do not have a copy of any of this. It does not leave your device unless **you** explicitly share or export it (see [section 7](#7-sharing-and-export)).
+
+> **Device backup note:** Android may include your app settings (tags, favorites, preferences) in your device's own Google backup or in a device-to-device transfer when you migrate phones – this is a system feature controlled by your device's backup settings, not by us. Recordings, GPS tracks, and transcripts are explicitly **excluded** from cloud backups.
 
 ---
 
@@ -72,7 +74,7 @@ MotoRec uses the network only for the features listed below. In each case the re
 | Crash reporting | [Firebase Crashlytics / Google](https://firebase.google.com/products/crashlytics) | Stack trace, device model, Android version, app version, crash time – **not** recordings, transcripts, or GPS tracks | [Google Privacy Policy](https://policies.google.com/privacy) |
 | Advertising (free version) | [Google AdMob](https://admob.google.com) | Advertising ID, IP address, device info, general location derived from IP | [Google Privacy Policy](https://policies.google.com/privacy) · [Ads Policy](https://policies.google.com/technologies/ads) |
 
-> **Advertising note:** On first launch in the European Economic Area and UK, the app shows a consent dialog. Ads are personalised only if you consent; otherwise non-personalised ads are shown. You can remove all ads permanently with the **"Remove ads"** in-app purchase.
+> **Advertising note:** On first launch in the European Economic Area and UK, the app shows a consent dialog. Ads are personalised only if you consent; otherwise non-personalised ads are shown. You can review or change your consent choice at any time via **Settings → Ad privacy settings**. You can remove all ads permanently with the **"Remove ads"** in-app purchase.
 
 ---
 

@@ -4,7 +4,7 @@
 |---|---|
 | **Effective date** | 2 July 2026 |
 | **App** | MotoRec (Android) |
-| **Developer / contact** | undelalune · [motorec-dev@outlook.com](mailto:motorec-dev@outlook.com) |
+| **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
 
 ---
 
@@ -14,7 +14,7 @@
 
 ## 1. Who is responsible
 
-This app is published by an individual developer ("we", "us"). For any privacy question you can reach us at [motorec-dev@outlook.com](mailto:motorec-dev@outlook.com).
+This app is published by an individual developer ("we", "us"). For any privacy question you can reach us at [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com).
 
 ---
 
@@ -131,4 +131,4 @@ We may update this policy as the app evolves (for example if a future version ad
 
 ## 13. Contact
 
-Questions about this policy: [motorec-dev@outlook.com](mailto:motorec-dev@outlook.com)
+Questions about this policy: [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com)

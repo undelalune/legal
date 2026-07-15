@@ -4,7 +4,7 @@
 |---|---|
 | **Effective date** | 11 June 2026 |
 | **App** | MotoRec (Android) |
-| **Developer / contact** | undelalune · [motorec-dev@outlook.com](mailto:motorec-dev@outlook.com) |
+| **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
 
 ---
 
@@ -103,4 +103,4 @@ These Terms are governed by the laws of **Poland**, without regard to its confli
 
 ## 12. Contact
 
-Questions about these Terms: [motorec-dev@outlook.com](mailto:motorec-dev@outlook.com)
+Questions about these Terms: [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com)

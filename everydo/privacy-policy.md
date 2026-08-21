@@ -2,13 +2,13 @@
 
 | | |
 |---|---|
-| **Effective date** | 15 July 2026 |
+| **Effective date** | 21 August 2026 |
 | **App** | Everydo (Android) |
 | **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
 
 ---
 
-> **In short:** Everydo keeps all your data on your device. We – the developer – do not operate any servers and never receive your tasks, notes, or anything else you create in the app. The app does not even request internet access: it cannot send data anywhere. There are no ads, no analytics, and no account.
+> **In short:** Everydo keeps your tasks on your device. We – the developer – do not operate any servers and never receive your tasks, notes, or anything else you create in the app. There is no account and no cloud sync. The free version shows advertising served by Google AdMob, and the app reports crashes through Firebase Crashlytics; both collect certain data, described in [section 3](#3-when-the-app-connects-to-the-internet-and-third-parties). You can remove ads with a one-time in-app purchase. If you use the calendar import, the app reads your device's calendars – only when you ask it to, and only to copy events into tasks that stay on the phone.
 
 ---
 
@@ -32,11 +32,21 @@ Everything you create in Everydo is stored **only in the app's storage on your d
 
 We do not have a copy of any of this. It does not leave your device unless **you** explicitly export or back it up (see [section 4](#4-backups)).
 
+Your tasks are never sent to the advertising or crash-reporting services described below. Those services receive only what is listed in the table there.
+
 ---
 
-## 3. No internet access
+## 3. When the app connects to the internet, and third parties
 
-Everydo does not declare the Android internet permission. The app is technically unable to connect to the internet, so nothing you enter can be uploaded – by us or by anyone else through the app.
+Everydo uses the network only for the two features below. In each case the request carries none of your tasks or their contents, but the third party will – like any web server – see your IP address and the specifics of the request. Their own privacy policies apply.
+
+| Feature | Third party | What is sent | Policy |
+|---|---|---|---|
+| Advertising (free version) | [Google AdMob](https://admob.google.com) | Advertising ID, IP address, device info, general location derived from IP | [Google Privacy Policy](https://policies.google.com/privacy) · [Ads Policy](https://policies.google.com/technologies/ads) |
+| Crash reporting | [Firebase Crashlytics / Google](https://firebase.google.com/products/crashlytics) | Stack trace, device model, Android version, app version, crash time – **not** your tasks, notes, or calendar data | [Google Privacy Policy](https://policies.google.com/privacy) |
+| In-app purchase ("Remove ads") | [Google Play Billing / Google](https://play.google.com) | Handled by Google Play – the purchase is tied to your Google account. The app only reads whether the item is owned; **we** never see your name, payment details, or billing address | [Google Privacy Policy](https://policies.google.com/privacy) |
+
+> **Advertising note:** On first launch in the European Economic Area and the UK, the app shows a consent dialog. Ads are personalised only if you consent; otherwise you see non-personalised ads. You can review or change that choice at any time via **Settings → Ad privacy settings**. The **"Remove ads"** in-app purchase removes advertising permanently, and with it the advertising requests described above.
 
 ---
 
@@ -49,54 +59,68 @@ Two ways your data can leave the app, both under your control:
 
 ---
 
-## 5. Notifications and reminders
+## 5. Calendar import
+
+Everydo can copy events from the calendars on your device into tasks. This is optional: it happens only when you open *Settings → Data → Import from calendar* and pick the events yourself.
+
+- The app asks for the Android **calendar read permission** at that moment, not at install and not at first launch. Decline it and the rest of the app works as before.
+- Access is **read-only**. Everydo never creates, edits, or deletes anything in your calendar.
+- Reading happens **only while that screen is open**. There is no background sync, no watching for changes, and no repeat reads afterwards.
+- What you import (title, description, dates, repeat rule, reminders) is copied into Everydo's own storage on your device, exactly like a task you typed yourself. It stays there: calendar data is never sent to us or to the services in [section 3](#3-when-the-app-connects-to-the-internet-and-third-parties).
+- Deleting an imported task in Everydo does not touch the original event.
+
+---
+
+## 6. Notifications and reminders
 
 Reminders are scheduled and shown entirely on your device using Android's alarm and notification systems. No reminder content is sent anywhere.
 
 ---
 
-## 6. What we do NOT do
+## 7. What we do NOT do
 
-- We do **not** use analytics, crash reporting, or advertising SDKs.
+- We do **not** use analytics or user-tracking SDKs beyond what is described in [section 3](#3-when-the-app-connects-to-the-internet-and-third-parties).
 - We do **not** require an account or sign-in.
-- We do **not** sync to any cloud or to us.
-- We do **not** sell or share your data – we never have it.
+- We do **not** sync your tasks to any cloud or to us.
+- We do **not** sell your data – we never have it.
 
 ---
 
-## 7. Permissions and why they are used
+## 8. Permissions and why they are used
 
 | Permission | Purpose |
 |---|---|
 | Notifications (`POST_NOTIFICATIONS`) | To show task reminders |
 | Exact alarms (`SCHEDULE_EXACT_ALARM`) | To fire reminders at the exact time you set |
 | Boot completed (`RECEIVE_BOOT_COMPLETED`) | To restore scheduled reminders after your device restarts |
+| Read calendar (`READ_CALENDAR`) | To list your calendars and their events during the optional import, and only while that screen is open (see [section 5](#5-calendar-import)) |
+| Internet / network state (`INTERNET`, `ACCESS_NETWORK_STATE`) | To display advertising, send crash reports, and check the "Remove ads" purchase (see [section 3](#3-when-the-app-connects-to-the-internet-and-third-parties)) |
 
 ---
 
-## 8. Data retention and deletion
+## 9. Data retention and deletion
 
-Because all data lives on your device, you are in full control:
+Because your tasks live on your device, you are in full control:
 
 - Delete an individual task (or its whole series) from within the app.
 - Uninstalling Everydo removes all of its data from your device. Backup files you exported yourself, and any copies in your device's Google backup, remain until you delete them.
 
-We hold no copies, so there is nothing for us to delete on your behalf.
+We hold no copies of your tasks, so there is nothing for us to delete on your behalf. Crash reports and advertising data held by Google are covered by Google's own policy and retention rules, linked in [section 3](#3-when-the-app-connects-to-the-internet-and-third-parties).
 
 ---
 
-## 9. Children
+## 10. Children
 
-Everydo is not directed at children and does not knowingly collect data from anyone. As described above, we do not collect personal data at all.
-
----
-
-## 10. Changes to this policy
-
-We may update this policy as the app evolves. In particular, if a future version adds advertising or an online feature, this policy will be updated **before** that version ships. The current version is always available at this page, and the "Effective date" above reflects the latest revision.
+Everydo is not directed at children. We do not knowingly collect personal data from anyone, and we collect none ourselves at all.
 
 ---
 
-## 11. Contact
+## 11. Changes to this policy
+
+We may update this policy as the app evolves. The current version is always available at this page, and the "Effective date" above reflects the latest revision.
+
+---
+
+## 12. Contact
 
 Questions about this policy: [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com)

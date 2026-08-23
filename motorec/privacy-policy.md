@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Effective date** | 6 August 2026 |
+| **Effective date** | 23 August 2026 |
 | **App** | MotoRec (Android) |
 | **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
 
@@ -72,10 +72,10 @@ MotoRec uses the network only for the features listed below. In each case the re
 | Map tiles | [CARTO](https://carto.com) / [OpenStreetMap](https://www.openstreetmap.org) | IP address + approximate map area | [CARTO](https://carto.com/privacy/) · [OSM](https://www.openstreetmap.org/copyright) |
 | Open track externally | External map app of your choice (e.g. Google Maps) | Track coordinates, handed to the app you select | App's own policy |
 | Crash reporting | [Firebase Crashlytics / Google](https://firebase.google.com/products/crashlytics) | Stack trace, device model, Android version, app version, crash time – **not** recordings, transcripts, or GPS tracks | [Google Privacy Policy](https://policies.google.com/privacy) |
-| Advertising (free version) | [Google AdMob](https://admob.google.com) | Advertising ID, IP address, device info, general location derived from IP | [Google Privacy Policy](https://policies.google.com/privacy) · [Ads Policy](https://policies.google.com/technologies/ads) |
+| Advertising (free version) | [Google AdMob](https://admob.google.com) | Advertising ID (only if you consent), IP address, device info, general location derived from IP | [Google Privacy Policy](https://policies.google.com/privacy) · [Ads Policy](https://policies.google.com/technologies/ads) |
 | In-app purchase ("Remove ads") | [Google Play Billing / Google](https://play.google.com) | Handled by Google Play – the purchase is tied to your Google account. The app only reads whether the item is owned; **we** never see your name, payment details, or billing address | [Google Privacy Policy](https://policies.google.com/privacy) |
 
-> **Advertising note:** On first launch in the European Economic Area and UK, the app shows a consent dialog. Ads are personalised only if you consent; otherwise non-personalised ads are shown. You can review or change your consent choice at any time via **Settings → Ad privacy settings**. You can remove all ads permanently with the **"Remove ads"** in-app purchase.
+> **Advertising note:** On first launch in the European Economic Area and UK, the app shows a consent dialog. If you consent, ads are personalised and your advertising ID is used. If you decline, the advertising ID is not used and nothing is stored on or read from your device for advertising; you may still see ads, selected without any profile of you (Google calls these limited ads). You can review or change your consent choice at any time via **Settings → Help & Info → Ad privacy settings**. You can remove all ads permanently with the **"Remove ads"** in-app purchase.
 
 ---
 

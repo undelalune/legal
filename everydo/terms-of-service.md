@@ -1,9 +1,9 @@
 # Terms of Service – Everydo
 
-| | |
-|---|---|
-| **Effective date** | 21 August 2026 |
-| **App** | Everydo (Android) |
+| |                                                                              |
+|---|------------------------------------------------------------------------------|
+| **Effective date** | 27 August 2026                                                               |
+| **App** | Everydo (Android)                                                            |
 | **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
 
 ---
@@ -61,7 +61,7 @@ Some features rely on third-party services, each governed by its own terms and p
 | In-app purchase | [Google Play Billing](https://play.google.com) | [Google Play Terms of Service](https://play.google.com/intl/en/about/play-terms/) |
 | Distribution and updates | [Google Play](https://play.google.com) | [Google Terms](https://policies.google.com/terms) |
 
-> **Advertising note:** The free version displays a banner ad. Ad content is determined by Google; we do not control which specific ads are shown. You can remove ads permanently with the **"Remove ads"** in-app purchase.
+> **Advertising note:** The free version displays a banner ad. Ad content is determined by Google; we do not control which specific ads are shown. You can remove ads permanently with the **"Remove ads"** in-app purchase. The app may also run without ads for an introductory period after installation; its length is set by us, may change or end at any time, and does not create any entitlement.
 
 We are not responsible for these third-party services, their availability, or their content.
 

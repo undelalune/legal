@@ -2,8 +2,8 @@
 
 | |                                                                              |
 |---|------------------------------------------------------------------------------|
-| **Effective date** | 27 August 2026                                                               |
-| **App** | Everydo (Android)                                                            |
+| **Effective date** | 17 October 2026                                                              |
+| **App** | Everydo (Android and iOS)                                                    |
 | **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
 
 ---
@@ -26,7 +26,7 @@ You own everything you create with the App – your tasks, subtasks, notes, and 
 
 ## 3. Reminders are not guaranteed
 
-The App schedules reminders through Android's alarm and notification systems. Android may delay or suppress them – battery optimization, Do Not Disturb, force-stopping the app, denied notification permission, and some manufacturers' power-management tools can all prevent a reminder from firing on time or at all.
+The App schedules reminders through the phone's own systems, and the phone may delay or suppress them. On Android, battery optimization, Do Not Disturb, force-stopping the app, denied notification permission, and some manufacturers' power-management tools can all prevent a reminder from firing on time or at all. On iPhone, a Focus, denied notification permission, or the limit iOS puts on how many notifications an app can schedule ahead can do the same.
 
 > **Do not rely on the App as your only safeguard for anything critical.** For payments with penalties, medication, legal deadlines, and similar time-sensitive obligations, keep an independent reminder. We accept no liability for consequences of a missed or late reminder.
 
@@ -58,8 +58,8 @@ Some features rely on third-party services, each governed by its own terms and p
 |---|---|---|
 | Advertising (free version) | [Google AdMob](https://admob.google.com) | [Google Terms](https://policies.google.com/terms) |
 | Crash reporting | [Firebase Crashlytics](https://firebase.google.com/products/crashlytics) | [Google Terms](https://policies.google.com/terms) |
-| In-app purchase | [Google Play Billing](https://play.google.com) | [Google Play Terms of Service](https://play.google.com/intl/en/about/play-terms/) |
-| Distribution and updates | [Google Play](https://play.google.com) | [Google Terms](https://policies.google.com/terms) |
+| In-app purchase and distribution, Android | [Google Play](https://play.google.com) | [Google Play Terms of Service](https://play.google.com/intl/en/about/play-terms/) |
+| In-app purchase and distribution, iPhone | [App Store](https://www.apple.com/app-store/) | [Apple Media Services Terms](https://www.apple.com/legal/internet-services/itunes/) |
 
 > **Advertising note:** The free version displays a banner ad. Ad content is determined by Google; we do not control which specific ads are shown. You can remove ads permanently with the **"Remove ads"** in-app purchase. The app may also run without ads for an introductory period after installation; its length is set by us, may change or end at any time, and does not create any entitlement.
 
@@ -75,13 +75,13 @@ The App is free to use. It offers one optional purchase, **"Remove ads"**, which
 |---|---|
 | **What you get** | The banner ad is hidden. No other feature changes |
 | **Type** | A one-time purchase, not a subscription. Nothing recurring is charged |
-| **Where it applies** | The purchase is tied to your Google account, so it follows you to your other Android devices and survives a reinstall |
-| **Restoring it** | Automatic – the app asks Google Play about your purchases every time it starts, so there is nothing to restore by hand |
-| **Price and tax** | Shown in the app before you confirm, in your local currency and including any tax Google applies for your country |
+| **Where it applies** | The purchase is tied to your Google account on Android or your Apple Account on iPhone, so it follows you to your other devices on the same platform and survives a reinstall. It does not carry over between platforms: a purchase made on Android does not remove ads on an iPhone, and the other way round |
+| **Restoring it** | Automatic – the app asks the store about your purchases when it starts. On iPhone there is also *Settings → Premium → Restore purchase*, for when that is not enough |
+| **Price and tax** | Shown in the app before you confirm, in your local currency and including any tax the store applies for your country |
 
-The payment itself is handled by **Google Play**, not by us. We never see your card, your name, or your billing address – we only learn from Google whether the item is owned.
+The payment itself is handled by **Google Play** or the **App Store**, not by us. We never see your card, your name, or your billing address – we only learn from the store whether the item is owned.
 
-**Refunds.** Refunds are handled by Google Play under its own [refund policy](https://support.google.com/googleplay/answer/2479637); you can also write to us and we will help where we can. Nothing here limits the statutory rights you have as a consumer in your country of residence, including any right of withdrawal. If a purchase is refunded, charged back, or otherwise revoked by Google, the app will detect it on a following start and the ads will come back.
+**Refunds.** Refunds are handled by the store you bought from, under its own rules: Google Play's [refund policy](https://support.google.com/googleplay/answer/2479637), or Apple's, requested at [reportaproblem.apple.com](https://reportaproblem.apple.com). We cannot issue them ourselves, but you can write to us and we will help where we can. Nothing here limits the statutory rights you have as a consumer in your country of residence, including any right of withdrawal. If a purchase is refunded, charged back, or otherwise revoked by the store, the app will detect it and the ads will come back.
 
 **Availability.** We may change the price of the purchase, or stop offering it, at any time. That does not affect purchases already made. If we ever stop showing ads altogether, the purchase simply has nothing left to remove – you are not owed a refund for that.
 

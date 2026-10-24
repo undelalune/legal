@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Effective date** | 23 October 2026 |
+| **Effective date** | 24 October 2026 |
 | **App** | ICD-11 Global (Android) |
 | **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
 
@@ -24,7 +24,7 @@ This app is published by an individual developer ("we", "us"). For any privacy q
 |---|---|
 | Favorites (entries and sections you star) | Device only |
 | History (the 50 entries you opened last) | Device only |
-| Settings (the language of the classification) | Device only |
+| Settings (the language of the classification, the theme) | Device only |
 | The classification data you downloaded | Device only |
 | Whether you bought "Remove ads", and the dates of the ad-free period | Device only (Google Play keeps its own record of the purchase) |
 | What you type into search | Kept only while the search screen is open; never saved and never sent |
@@ -82,13 +82,15 @@ Android may include the app's favorites, history and settings in your device's o
 
 Everything the app keeps lives on your device, so you are in control of it: *Settings → Clear history* removes the history, the star on an entry removes it from favorites, and *Settings → ICD-11 data* removes a downloaded language. Uninstalling the app removes all of its data from your device; copies in your device's Google backup stay until you delete them there.
 
-We hold nothing, so there is nothing for us to delete on your behalf. Crash reports, advertising data and Cloudflare's server logs are kept by Google and Cloudflare under their own policies and retention rules, linked in [section 3](#3-when-the-app-connects-to-the-internet).
+**If you email us.** *Settings → Send feedback* opens your own email app with a message addressed to us; nothing leaves your phone until you send it there yourself. The draft ends with one technical line – the app version, the Android version, the phone model, the ICD-11 release and the language of the classification – which you can see and delete before sending. From an email we get your address and what you wrote, and we use them only to reply and to fix what you report. The email stays in our mailbox while the conversation is useful, and we delete it if you ask us to. It is not added to any list and not shared with anyone.
+
+Apart from emails you send us, we hold nothing about you. Crash reports, advertising data and Cloudflare's server logs are kept by Google and Cloudflare under their own policies and retention rules, linked in [section 3](#3-when-the-app-connects-to-the-internet).
 
 ---
 
 ## 8. Children
 
-The app is a professional reference and is not directed at children. We collect no personal data from anyone.
+The app is a professional reference and is not directed at children. We collect no personal data from anyone, apart from emails people choose to send us.
 
 ---
 

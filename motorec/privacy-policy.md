@@ -2,7 +2,7 @@
 
 | |                                                                              |
 |---|------------------------------------------------------------------------------|
-| **Effective date** | 27 August 2026                                                               |
+| **Effective date** | 24 October 2026                                                              |
 | **App** | MotoRec (Android)                                                            |
 | **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
 
@@ -117,13 +117,15 @@ Because all data lives on your device, you are in full control:
 - Delete an individual recording (and its track/transcript) from within the app.
 - Uninstalling MotoRec removes all of its data from your device.
 
-We hold no copies, so there is nothing for us to delete on your behalf.
+**If you email us.** *Settings → Help & Info → Send feedback* opens your own email app with a message addressed to us; nothing leaves your phone until you send it there yourself. The draft ends with one technical line – the app version, the Android version and the phone model – which you can see and delete before sending. From an email we get your address and what you wrote, and we use them only to reply and to fix what you report. The email stays in our mailbox while the conversation is useful, and we delete it if you ask us to. It is not added to any list and not shared with anyone.
+
+We hold no copies of your recordings, tracks or transcripts, so there is nothing of that for us to delete on your behalf.
 
 ---
 
 ## 11. Children
 
-MotoRec is not directed at children and does not knowingly collect data from anyone. As described above, we do not collect personal data at all.
+MotoRec is not directed at children and does not knowingly collect data from anyone. Apart from emails people choose to send us, we do not collect personal data at all.
 
 ---
 

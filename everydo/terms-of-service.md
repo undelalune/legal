@@ -2,9 +2,9 @@
 
 | |                                                                              |
 |---|------------------------------------------------------------------------------|
-| **Effective date** | 17 October 2026                                                              |
+| **Effective date** | 24 October 2026                                                              |
 | **App** | Everydo (Android and iOS)                                                    |
-| **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
+| **Developer / contact** | undelalune · [support@undelalune.com](mailto:support@undelalune.com) |
 
 ---
 
@@ -119,4 +119,4 @@ These Terms are governed by the laws of **Poland**, without regard to its confli
 
 ## 13. Contact
 
-Questions about these Terms: [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com)
+Questions about these Terms: [support@undelalune.com](mailto:support@undelalune.com)

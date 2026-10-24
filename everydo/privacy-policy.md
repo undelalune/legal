@@ -4,7 +4,7 @@
 |---|---|
 | **Effective date** | 24 October 2026 |
 | **App** | Everydo (Android and iOS) |
-| **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
+| **Developer / contact** | undelalune · [support@undelalune.com](mailto:support@undelalune.com) |
 
 ---
 
@@ -14,7 +14,7 @@
 
 ## 1. Who is responsible
 
-This app is published by an individual developer ("we", "us"). For any privacy question you can reach us at [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com).
+This app is published by an individual developer ("we", "us"). For any privacy question you can reach us at [support@undelalune.com](mailto:support@undelalune.com).
 
 ---
 
@@ -140,4 +140,4 @@ We may update this policy as the app evolves. The current version is always avai
 
 ## 12. Contact
 
-Questions about this policy: [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com)
+Questions about this policy: [support@undelalune.com](mailto:support@undelalune.com)

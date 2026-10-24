@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Effective date** | 23 October 2026 |
+| **Effective date** | 24 October 2026 |
 | **App** | ICD-11 Global (Android) |
 | **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
 
@@ -52,6 +52,7 @@ The App is provided **"as is"** and **"as available"**, without warranties of an
 | Content | Texts come from WHO and, for Polish, from the registry, as they were published. We do not check them medically and do not correct them |
 | Search | Ranking and matching are aids. An entry may not come up for the words you try; browse the chapters or search with the code |
 | Downloads | The data host may be unavailable. What you have downloaded keeps working offline |
+| Data updates | New releases and languages come from WHO and, for Polish, from the registry. If a publisher stops providing them or changes its terms, we may have to stop offering updates or downloads. Data you have already downloaded keeps working |
 
 ---
 

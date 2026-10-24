@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Effective date** | 17 October 2026 |
+| **Effective date** | 24 October 2026 |
 | **App** | Everydo (Android and iOS) |
 | **Developer / contact** | undelalune · [undelalune-dev@outlook.com](mailto:undelalune-dev@outlook.com) |
 
@@ -120,13 +120,15 @@ Because your tasks live on your device, you are in full control:
 - Completion history is kept for two years. Once a day the app removes windows that closed more than two years earlier, so its storage does not grow without limit. Open and overdue windows are never removed this way, whatever their age. A backup you exported before that point still contains the older history.
 - Uninstalling Everydo removes all of its data from your device, with one exception on iOS: the dates of the ad-free period stay in the Keychain (see [section 3](#3-when-the-app-connects-to-the-internet-and-third-parties)). Backup files you exported yourself, and any copies in your device's Google or iCloud backup, remain until you delete them.
 
-We hold no copies of your tasks, so there is nothing for us to delete on your behalf. Crash reports and advertising data held by Google are covered by Google's own policy and retention rules, linked in [section 3](#3-when-the-app-connects-to-the-internet-and-third-parties).
+**If you email us.** *Settings > Help & info > Send feedback* opens your own email app with a message addressed to us; nothing leaves your phone until you send it there yourself. The draft ends with one technical line – the app version, the system version (Android or iOS) and the device model – which you can see and delete before sending. From an email we get your address and what you wrote, and we use them only to reply and to fix what you report. The email stays in our mailbox while the conversation is useful, and we delete it if you ask us to. It is not added to any list and not shared with anyone.
+
+We hold no copies of your tasks, so there is nothing of that for us to delete on your behalf. Crash reports and advertising data held by Google are covered by Google's own policy and retention rules, linked in [section 3](#3-when-the-app-connects-to-the-internet-and-third-parties).
 
 ---
 
 ## 10. Children
 
-Everydo is not directed at children. We do not knowingly collect personal data from anyone, and we collect none ourselves at all.
+Everydo is not directed at children. We do not knowingly collect personal data from anyone, and we collect none ourselves, apart from emails people choose to send us.
 
 ---
 

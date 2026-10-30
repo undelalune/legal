@@ -55,7 +55,7 @@ In each case the request carries none of your searches, favorites or history, bu
 
 > **Ad-free period:** For a period after installation the app shows no ads and makes no advertising requests. Its length is set by us and fetched through Firebase Remote Config; it may change or be withdrawn at any time and is not part of any agreement with you. The dates the app keeps to track it (when the period started, how long it is, and the last day the app saw) are stored on your device. On Android they are in the app's settings and part of your device backup. On iOS they are in the device's Keychain: the system keeps them when the app is deleted, so a reinstall does not start a new period, and moves them to a new device with an encrypted backup. They are not synced through iCloud Keychain and are never sent anywhere. Nothing but those dates is stored there. When the period ends, the app says so once.
 
-> **Remove ads:** The one-time purchase in *Settings → Remove ads* removes the banner, and with it the advertising requests, for good. On iOS, *Restore Purchase* brings the purchase back on a new device or after a reinstall.
+> **Remove ads:** The one-time purchase in *Settings → Remove ads* removes the banner, and with it the advertising requests, for good. On iOS, *Restore purchase* brings the purchase back on a new device or after a reinstall.
 
 ---
 

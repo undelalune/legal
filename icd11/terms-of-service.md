@@ -87,7 +87,7 @@ The App is free to use. It offers one optional purchase, **"Remove ads"**, which
 | **What you get** | The banner ad is hidden. No other feature changes |
 | **Type** | A one-time purchase, not a subscription. Nothing recurring is charged |
 | **Where it applies** | The purchase is tied to your Google account on Android or your Apple Account on iPhone and iPad, so it follows you to your other devices on the same platform and survives a reinstall. It does not carry over between platforms: a purchase made on Android does not remove ads on an iPhone, and the other way round |
-| **Restoring it** | Automatic: the App asks the store about your purchases every time it starts. On iPhone and iPad there is also *Restore Purchase*, for when that is not enough |
+| **Restoring it** | Automatic: the App asks the store about your purchases every time it starts. On iPhone and iPad there is also *Restore purchase*, for when that is not enough |
 | **Price and tax** | Shown in the App before you confirm, in your local currency and including any tax the store applies for your country |
 
 The payment itself is handled by **Google Play** or the **App Store**, not by us. We never see your card, your name or your billing address; we only learn from the store whether the item is owned.

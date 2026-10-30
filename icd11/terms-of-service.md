@@ -2,8 +2,8 @@
 
 | | |
 |---|---|
-| **Effective date** | 24 October 2026 |
-| **App** | ICD-11 Global (Android) |
+| **Effective date** | 30 October 2026 |
+| **App** | ICD-11 Global (Android and iOS) |
 | **Developer / contact** | undelalune · [support@undelalune.com](mailto:support@undelalune.com) |
 
 ---
@@ -69,8 +69,8 @@ You must not attempt to reverse engineer, resell, or redistribute the App except
 | Hosting of the classification data | [Cloudflare](https://www.cloudflare.com) | [Cloudflare Terms](https://www.cloudflare.com/website-terms/) |
 | Advertising (free version) | [Google AdMob](https://admob.google.com) | [Google Terms](https://policies.google.com/terms) |
 | Crash reporting and the ad-free period settings | [Firebase](https://firebase.google.com) (Crashlytics, Remote Config) | [Google Terms](https://policies.google.com/terms) |
-| In-app purchase | [Google Play Billing](https://play.google.com) | [Google Play Terms of Service](https://play.google.com/intl/en/about/play-terms/) |
-| Distribution and updates | [Google Play](https://play.google.com) | [Google Play Terms of Service](https://play.google.com/intl/en/about/play-terms/) |
+| In-app purchase and distribution, Android | [Google Play](https://play.google.com) | [Google Play Terms of Service](https://play.google.com/intl/en/about/play-terms/) |
+| In-app purchase and distribution, iPhone and iPad | [App Store](https://www.apple.com/app-store/) | [Apple Media Services Terms](https://www.apple.com/legal/internet-services/itunes/) |
 
 > **Advertising:** The free version shows a banner ad at the bottom of the home screen and the chapter list – never on an entry. Google chooses the ads; we do not control which ones are shown. The **"Remove ads"** purchase ([section 6](#6-in-app-purchase)) removes them for good. For a period after installation the App runs without ads; its length is set by us, may change or end at any time, and does not create any entitlement.
 
@@ -86,13 +86,13 @@ The App is free to use. It offers one optional purchase, **"Remove ads"**, which
 |---|---|
 | **What you get** | The banner ad is hidden. No other feature changes |
 | **Type** | A one-time purchase, not a subscription. Nothing recurring is charged |
-| **Where it applies** | The purchase is tied to your Google account, so it follows you to your other Android devices and survives a reinstall |
-| **Restoring it** | Automatic: the App asks Google Play about your purchases every time it starts, so there is nothing to restore by hand |
-| **Price and tax** | Shown in the App before you confirm, in your local currency and including any tax Google applies for your country |
+| **Where it applies** | The purchase is tied to your Google account on Android or your Apple Account on iPhone and iPad, so it follows you to your other devices on the same platform and survives a reinstall. It does not carry over between platforms: a purchase made on Android does not remove ads on an iPhone, and the other way round |
+| **Restoring it** | Automatic: the App asks the store about your purchases every time it starts. On iPhone and iPad there is also *Restore Purchase*, for when that is not enough |
+| **Price and tax** | Shown in the App before you confirm, in your local currency and including any tax the store applies for your country |
 
-The payment itself is handled by **Google Play**, not by us. We never see your card, your name or your billing address; we only learn from Google whether the item is owned.
+The payment itself is handled by **Google Play** or the **App Store**, not by us. We never see your card, your name or your billing address; we only learn from the store whether the item is owned.
 
-**Refunds.** Refunds are handled by Google Play under its own [refund policy](https://support.google.com/googleplay/answer/2479637); you can also write to us and we will help where we can. Nothing here limits the statutory rights you have as a consumer in your country of residence, including any right of withdrawal. If a purchase is refunded, charged back or otherwise revoked by Google, the App notices it on a following start and the ads come back.
+**Refunds.** Refunds are handled by the store you bought from, under its own rules: Google Play's [refund policy](https://support.google.com/googleplay/answer/2479637), or Apple's, requested at [reportaproblem.apple.com](https://reportaproblem.apple.com). We cannot issue them ourselves, but you can write to us and we will help where we can. Nothing here limits the statutory rights you have as a consumer in your country of residence, including any right of withdrawal. If a purchase is refunded, charged back or otherwise revoked by the store, the App notices it on a following start and the ads come back.
 
 **Availability.** We may change the price of the purchase, or stop offering it, at any time. That does not affect purchases already made. If we ever stop showing ads altogether, the purchase has nothing left to remove, and you are not owed a refund for that.
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Effective date** | 30 October 2026 |
+| **Effective date** | 6 November 2026 |
 | **App** | ICD-11 Global (Android and iOS) |
 | **Developer / contact** | undelalune · [support@undelalune.com](mailto:support@undelalune.com) |
 
@@ -31,6 +31,7 @@ The App's own code, design and texts are ours. The classification is not:
 | Content | Owner | Licence |
 |---|---|---|
 | ICD-11: structure, codes, English texts and the translations published through the WHO ICD-API | World Health Organization (WHO) | [CC BY-ND 3.0 IGO](https://creativecommons.org/licenses/by-nd/3.0/igo/) and the [WHO ICD-11 licence terms](https://icd.who.int/en/docs/ICD11-license.pdf) |
+| ICD-10 / ICD-11 mapping tables (MMS), including the ICD-10 codes and titles in them | World Health Organization (WHO) | [CC BY-ND 3.0 IGO](https://creativecommons.org/licenses/by-nd/3.0/igo/) and the [WHO ICD-11 licence terms](https://icd.who.int/en/docs/ICD11-license.pdf) |
 | Polish translation of ICD-11 (pre-release) | Published by the Polish Ministry of Health / Centrum e-Zdrowia in the coding-system registry (RSK) | [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) |
 
 Citation required by WHO: *International Classification of Diseases, Eleventh Revision (ICD-11), World Health Organization (WHO) 2019 https://icd.who.int/browse11. Licensed under the Creative Commons Attribution-NoDerivatives 3.0 IGO licence (CC BY-ND 3.0 IGO).*
@@ -38,6 +39,7 @@ Citation required by WHO: *International Classification of Diseases, Eleventh Re
 - The App shows the classification **unchanged**. Where a translation is missing, it shows the English original and marks it as English; it never fills gaps with its own or machine translations.
 - **The App is not an official WHO product**, and WHO does not endorse it. The same goes for the Ministry of Health and Centrum e-Zdrowia.
 - **The Polish translation is a pre-release version**, published for consultation. It was not made by WHO, and WHO is not responsible for it. If it differs from the English, the English original is the binding version. The App labels it as pre-release and shows its publisher's notice in *About*.
+- **ICD-10 correspondences** (an optional setting) come from WHO's mapping tables for the same ICD-11 release, shown as WHO published them; ICD-10 titles are shown in English only. WHO is not responsible for the correctness of the mapping, and a correspondence is not always one-to-one: one code may correspond to several codes, to a combination of codes, or to none. The App does not convert codes for you – check the result in the classification your authority prescribes.
 - Favorites, history and search highlighting are features of the App, not part of the classification. The same goes for the banner ads: they come from Google, are not part of the classification, and neither WHO nor the Polish publisher has anything to do with them.
 
 ---
